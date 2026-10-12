@@ -7,7 +7,7 @@
 - プロジェクト名: task-board
 - 内容: タスク管理ボードアプリケーション
 - 技術スタック: React 19 + Vite（JavaScript / JSX）、Lint は oxlint
-- 構成: `src/App.jsx`（画面とタスク状態の管理）、`src/index.css`（スタイル）
+- 構成: `src/App.jsx`（画面とタスク状態の管理、localStorage への保存）、`src/index.css`（スタイル）
 
 ## 開発コマンド
 
