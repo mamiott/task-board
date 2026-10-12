@@ -19,6 +19,12 @@ npm run build    # 本番ビルド（dist/ に出力）
 npm run preview  # ビルド結果のプレビュー
 ```
 
+## デプロイ
+
+- GitHub Pages で公開: https://mamiott.github.io/task-board/
+- `main` へのプッシュで `.github/workflows/deploy.yml` が自動でビルド・デプロイする
+- `vite.config.js` の `base: './'` は Pages のサブパスで動かすための設定なので変更しない
+
 ## コーディング規約
 
 - 既存コードのスタイル・命名規則に合わせる
